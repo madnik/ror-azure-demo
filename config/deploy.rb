@@ -6,7 +6,7 @@ set :deploy_user, 'azureuser'
 
 # setup repo details
 set :scm, :git
-set :repo_url, 'https://github.com/m-gagne/ror-azure-demo.git'
+set :repo_url, 'https://github.com/madnik/ror-azure-demo.git'
 
 # setup rvm.
 set :rbenv_type, :user
