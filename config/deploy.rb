@@ -10,7 +10,7 @@ set :repo_url, 'https://github.com/madnik/ror-azure-demo.git'
 
 # setup rvm.
 set :rbenv_type, :user
-set :rbenv_ruby, '2.0.0-p451'
+set :rbenv_ruby, '2.1.6'
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 
